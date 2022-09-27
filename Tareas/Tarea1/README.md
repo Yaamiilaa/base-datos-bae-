@@ -1,2 +1,2 @@
 # base-datos-bae-
-Repositorio dedicado a la asignatura de BBDD
+Cómo crear una cuenta en Github
