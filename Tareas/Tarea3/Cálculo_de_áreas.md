@@ -23,19 +23,19 @@ regresa valor1 * valor2*.
 Otra área que también necesita de la *función multiplicar(valor1, valor2)* es el cálculo del área del romboide, ya que su área es base por altura. Dicho esto, la función se vería de la siguiente manera: *función romboide(valor1, valor2)
 regresa valor1 * valor2*.
 
-Para calcular el área del triángulo debemos utilizar la función empleada en los cálculos anteriores más una dvisón. Ya que el área del triángulo es base por altura dividido entre 2 podemos decir que la función del cálculo del área del triángulo sería la siguiente: *función triángulo(valor1, valor2)
+Para calcular el área del triángulo debemos utilizar la función empleada en los cálculos anteriores más una división. Ya que el área del triángulo es base por altura dividido entre 2 podemos decir que la función del cálculo del área del triángulo sería la siguiente: *función triángulo(valor1, valor2)
 regresa (valor1 * valor2) / 2*.
 
-EL área del rombo es muy similar a la del triángulo, por lo que, podemos utilizar dicha función para calcular el área del rombo. Dicha función se vería de la siguiente manera: *función rombo(valor1, valor2)
+El área del rombo es muy similar a la del triángulo, por lo que, podemos utilizar dicha función para calcular el área del rombo. Dicha función se vería de la siguiente manera: *función rombo(valor1, valor2)
 regresa (valor1 * valor2) / 2*.
 
 Esta misma función puede ser utilizada otra vez para calcular el área del pentágono, ya que esta es (P*a)/2. Siendo *P* el valor 1 y *a* el valor 2. Esta función se vería de la siguiente manera: *función pentágono(valor1, valo2) 
 regresa (valor1 * valor2) / 2*.
 
-El área del círculo no utiliza ninguna otra función compartida con otro área. El área del círculo se vería de la siguiente manera: *funcion circulo(valorR)
+El área del círculo no utiliza ninguna otra función compartida con otro área. El área del círculo se vería de la siguiente manera: *función circulo(valorR)
 regresa Pi * valorR<sup>2</sup>*
 
-Otra área que no utiliza ninguna otra función repetida es el área del trapecio. Esta función necesitará tres valores y se verías así: *funcion trapecio(valor1, valor2, valor3) regresa (valor1 + valor2) / 2) * valor3*.
+Otra área que no utiliza ninguna otra función repetida es el área del trapecio. Esta función necesitará tres valores y se verías así: *función trapecio(valor1, valor2, valor3) regresa (valor1 + valor2) / 2) * valor3*.
 
 Para que el mantenimiento de la aplicación sea efectiva deberíamos aplicar el principio de reutilización en la programación, es decir, aplicar la misma técnica con la solicitud de datos agrupando aquellas fórmulas que requieren uno o dos parámetros, como ya vimos anteriormente. 
 ## Webgrafía
