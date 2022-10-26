@@ -1,0 +1,1 @@
+# CReación de la carpeta de imagenes del diagrama SISTEMA DE REPARTO
