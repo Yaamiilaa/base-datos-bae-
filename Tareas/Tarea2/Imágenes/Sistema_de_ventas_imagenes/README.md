@@ -1,0 +1,1 @@
+# Se crea la carpeta para añadir las imágenes del diagrama de SISTEMA DE VENTAS
