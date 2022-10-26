@@ -77,13 +77,29 @@
    - Texto en negrita: entidades.
    - Texto en cursiva: atributos.
 
-![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_ventas_imagenes/Sistema%20de%20ventas%20part1.png>) 
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part1.png>) 
 
-![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_ventas_imagenes/Sistema%20de%20ventas%20part2.png>) 
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part2.png>) 
 
-![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_ventas_imagenes/Sistema%20de%20ventas%20part3.png>)
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part3.png>)
 
-![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_ventas_imagenes/Sistema%20de%20ventas%20part4.png>)
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part4.png>)
 
-![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_ventas_imagenes/Sistema%20de%20ventas%20part5.png>)
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part5.png>)
 
+- A partir del siguiente enunciado se desea realizar el modelo entidad-relación. Se desea informatizar la gestión de una empresa de reparto de mercancías que reparte paquetes por toda la isla. Los encargados de llevar los **paquetes** son los **camioneros**, de los que se quiere guardar el *dni, nombre, teléfono, dirección, salario y población en la que vive*. De los paquetes transportados interesa conocer el *código de paquete, descripción, destinatario y dirección del destinatario*. Un camionero ___distribuye___ muchos paquetes, y un paquete sólo puede ser distribuido por un camionero. De los **camiones** que llevan los camioneros, interesa conocer la *matrícula, modelo, tipo y potencia*. Un camionero puede ___conducir___ diferentes camiones en fechas diferentes, y un camión puede ser conducido por varios camioneros.
+
+LEYENDA:
+   - Texto en negrita: entidades.
+   - Texto en cursiva: atributos.
+   - Tecto en negrita y en cursiva: relaciones
+
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part1.png>) 
+
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part2.png>) 
+
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part3.png>)
+
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part4.png>)
+
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part5.png>)
