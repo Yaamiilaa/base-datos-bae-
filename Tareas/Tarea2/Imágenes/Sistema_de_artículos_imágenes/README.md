@@ -1,0 +1,1 @@
+# Creación de la carpeta de imágenes del diagrama SISTEMA DE VENTAS DE ARTÍCULOS
