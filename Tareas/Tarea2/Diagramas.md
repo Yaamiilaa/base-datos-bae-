@@ -113,12 +113,12 @@ LEYENDA:
    - Texto en cursiva: atributos.
    - Tecto en negrita y en cursiva: relaciones
 
-![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part1.png>) 
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part1.png>) 
 
-![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part2.png>) 
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part2.png>) 
 
-![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part3.png>)
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part3.png>)
 
-![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part4.png>)
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part4.png>)
 
-![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part5.png>)
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part5.png>)
