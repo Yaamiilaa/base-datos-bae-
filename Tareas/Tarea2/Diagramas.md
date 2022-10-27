@@ -103,3 +103,22 @@ LEYENDA:
 ![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part4.png>)
 
 ![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part5.png>)
+
+- A partir del siguiente enunciado se desea realizar el modelo entidad-relación.
+
+   “Se desea diseñar la base de datos de un Instituto. En la base de datos se desea guardar los datos de los **profesores** del Instituto (*DNI, nombre, dirección y teléfono*). Los profesores ___imparten___ **módulos**, y cada módulo tiene un *código y un nombre*. Cada **alumno** está ___matriculado___ en uno o varios módulos. De cada alumno se desea guardar el *nº de expediente, nombre, apellidos y fecha de nacimiento*. Los profesores pueden impartir varios módulos, pero un módulo sólo puede ser impartido por un profesor. Cada curso tiene un grupo de alumnos, uno de los cuales ___es el delegado___ del grupo”.
+
+LEYENDA:
+   - Texto en negrita: entidades.
+   - Texto en cursiva: atributos.
+   - Tecto en negrita y en cursiva: relaciones
+
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part1.png>) 
+
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part2.png>) 
+
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part3.png>)
+
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part4.png>)
+
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_de_art%C3%ADculos_im%C3%A1genes/Sistema%20de%20art%C3%ADculos%20part5.png>)
