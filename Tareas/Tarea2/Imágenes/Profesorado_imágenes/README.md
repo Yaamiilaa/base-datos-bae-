@@ -1,0 +1,1 @@
+# Creación de la carpeta de imágenes de la tarea PROFESORADO
