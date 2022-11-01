@@ -122,3 +122,19 @@ LEYENDA:
 ![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part4.png>)
 
 ![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part5.png>)
+
+- “Se desea diseñar una base de datos para almacenar y gestionar la información empleada por una empresa dedicada a la venta de automóviles, teniendo en cuenta los siguientes aspectos: La empresa dispone de una serie de **coches** para su venta. Se necesita conocer la *matrícula, marca y modelo, el color y el precio* de venta de cada coche. Los datos que interesa conocer de cada **cliente** son el *NIF, nombre, dirección, ciudad y número de teléfono*: además, los clientes se diferencian por un *código* interno de la empresa que se incrementa automáticamente cuando un cliente se da de alta en ella. Un cliente puede comprar tantos coches como desee a la empresa. Un coche determinado solo puede ser comprado por un único cliente. El concesionario también se encarga de llevar a cabo las **revisiones** que se realizan a cada coche. Cada revisión tiene asociado un código que se incrementa automáticamente por cada revisión que se haga. De cada revisión se desea saber si se ha hecho *cambio de filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros*. Los coches pueden pasar varias revisiones en el concesionario”.
+
+LEYENDA:
+   - Texto en negrita: entidades.
+   - Texto en cursiva: atributos.
+
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_gesti%C3%B3n_venta_autom%C3%B3viles/Sistema%20gesti%C3%B3n%20de%20ventas%20de%20autom%C3%B3viles%20part1.png>) 
+
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_gesti%C3%B3n_venta_autom%C3%B3viles/Sistema%20gesti%C3%B3n%20de%20ventas%20de%20autom%C3%B3viles%20part2.png>) 
+
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_gesti%C3%B3n_venta_autom%C3%B3viles/Sistema%20gesti%C3%B3n%20de%20ventas%20de%20autom%C3%B3viles%20part3.png>)
+
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_gesti%C3%B3n_venta_autom%C3%B3viles/Sistema%20gesti%C3%B3n%20de%20ventas%20de%20autom%C3%B3viles%20part4.png>)
+
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/bahttps://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Sistema_gesti%C3%B3n_venta_autom%C3%B3viles/Sistema%20gesti%C3%B3n%20de%20ventas%20de%20autom%C3%B3viles%20part5.pngse-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Profesorado_im%C3%A1genes/Profesorado%20part5.png>)
