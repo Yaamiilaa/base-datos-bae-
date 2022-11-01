@@ -1,0 +1,1 @@
+# Creación de la carpeta de las imágenes de la tarea SISTEMA EMPRESA TECNOLÓGICA
