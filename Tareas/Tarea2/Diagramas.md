@@ -199,12 +199,31 @@ Capítulos: hay que almacenas todos los capítulos, indicando a que temporada pe
 Películas: se debe almacenar también, todas las películas que se proyectaron en cines, cada una con su año de lanzamiento, título y director. También hay que guardar los personajes que aparecen en cada película y cuál de ellos fue el protagonista.
 Planetas: en cada capítulo, se visita uno o varios planetas, hay que almacenar el código del planeta, su nombre, galaxia a la que pertenece, el problema que se resolvió en esa visita y la nave con la que se viajó al planeta. Para la descripción de la nave se almacenará el nombre, código y número de tripulantes. La nave que viaja a un planeta puede disponer de una nave pequeña llamada lanzadera con la que bajan a la superficie del planeta. La existencia de la lanzadera solo tiene sentido si existe la nave a la que pertenece. Se identificará cada lanzadera mediante un número entero y el código de la nave. Es necesario conocer la capacidad en personas de la lanzadera.
 
-![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Ajedrez/Ajedrez%20part1.png>) 
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Star-trek/STAR%20TREK%20PART1.png>) 
 
-![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Ajedrez/Ajedrez%20part2.png>) 
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Star-trek/STAR%20TREK%20PART2.png>) 
 
-![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Ajedrez/Ajedrez%20part3.png>)
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Star-trek/STAR%20TREK%20PART3.png>)
 
-![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Ajedrez/Ajedrez%20part4.png>)
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Star-trek/STAR%20TREK%20PART4.png>)
 
-![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Ajedrez/Ajedrez%20part5.png>)
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Star-trek/STAR%20TREK%20PART5.png>)
+
+- Una empresa discográfica emergente de Canarias quiere almacenar y organizar eficientemente la información sobre grupos musicales, canciones y músicos. Para ello se hace necesario crear una base de datos que incluya los siguientes requerimientos y consideraciones:
+
+Un Músico se identifica por un código de músico, su nombre, su fecha de nacimiento, su año de fallecimiento, su género y su nacionalidad.
+Una Banda tiene un identificador de banda, el nombre del grupo, el año de formación, el año de disolución, el estilo musical y el país de origen. El estilo musical sólo puede tomar los valores:Blues, Country, Heavy, Jazz, Pop,Punk, Reggae ,Rock, Soul, Thrash, Techno.
+Un Álbum se caracteriza por incluir un identificador de álbum, su título, el año de publicación, su duración y el identificador del grupo que lo ha grabado.
+Una Canción almacena su identificador de canción, su título, su duración y el identificador del álbum al que pertenece.
+Es necesario también mantener información sobre los músicos que forman parte, es decir, son miembros de un grupo o grupos musicales, así como del instrumento que toca el músico en el grupo, existiendo la posibilidad de que un músico toque más de un instrumento en un grupo.
+Así mismo, también se debe disponer de información sobre las canciones y el músico o músicos que las han compuesto. En este sentido, como es lógico y habitual, un músico puede componer varias canciones y, también, una canción puede estar compuesta por más de un músico.
+
+![<Parte 1 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Empresa_discogr%C3%A1fica/Empresa%20discogr%C3%A1fica%20part1.png>) 
+
+![<Parte 2 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Empresa_discogr%C3%A1fica/Empresa%20discogr%C3%A1fica%20part2.png>) 
+
+![<Parte 3 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Empresa_discogr%C3%A1fica/Empresa%20discogr%C3%A1fica%20part3.png>)
+
+![<Parte 4 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Empresa_discogr%C3%A1fica/Empresa%20discogr%C3%A1fica%20part4.png>)
+
+![<Parte 5 del ejercicio resulto>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea2/Im%C3%A1genes/Empresa_discogr%C3%A1fica/Empresa%20discogr%C3%A1fica%20part5.png>)
