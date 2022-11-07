@@ -37,3 +37,4 @@
 - Se desea diseñar una BD para una Universidad que contenga información sobre carreras y asignaturas que se pueden estudiar. Además se incluirá la información de los alumnos matriculados en las correspondientes asignaturas y las calificaciones que obtienen en las asignaturas en las que están matriculados. Nota: suponer que una asignatura solo puede pertenecer a una carrera.
 
 ![<Imagen 9>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea6/img/MODELO%20RELACIONAL%20DIAGRAMA%209.png>)
+
