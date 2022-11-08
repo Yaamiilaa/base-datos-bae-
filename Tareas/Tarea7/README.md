@@ -9,3 +9,4 @@ Un proveedor tiene un identificador, nombre, dirección, teléfono y página web
 
 ![<Imagen 1>](<https://github.com/jpexposito/base-datos/blob/main/MR/tareas/tarea2/img/sistema-venta-Paso-2.drawio.png>)
 
+![<Imagen 2>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea7/img/Sistema%20de%20ventas%20Modelo%20Relacional.png>)
