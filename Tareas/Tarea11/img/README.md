@@ -1,0 +1,1 @@
+# Carpeta dedicada a las imágenes de la tarea 11
