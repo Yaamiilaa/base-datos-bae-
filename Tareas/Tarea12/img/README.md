@@ -1,0 +1,1 @@
+# Carpeta dedicada a las imagenes de la tarea 12
