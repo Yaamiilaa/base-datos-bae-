@@ -15,7 +15,7 @@ No se cumple la 1º Forma Normal porque hay campos que no son atómicos, es deci
 
 ## 2. Normalizar si no se cumple el apartado 2.
 
-![<Imagen 1>](<>)
+![<Imagen 1>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Traea13/img/Cap1%20.png>)
 
 ## 3. Comprobar si se cumple la 2ª Forma Normal.
 
@@ -23,7 +23,7 @@ No se cumple la 2° Forma Normal porque hay atributos que no forman parte de la 
 
 ## 4. Normalizar si no se cumple el apartado 3.
 
-![<Imagen 2>](<>)
+![<Imagen 2>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Traea13/img/cap%202.png>)
 
 ## 5. Comprobar si se cumple la 3ª Forma Normal.
 
@@ -31,9 +31,9 @@ No se cumple la 3• Forma Normal porque existen dependencias transitivas entre 
 
 ## 6. Normalizar si no se cumple el apartado 5.
 
-![<Imagen 3>](<>)
+![<Imagen 3>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Traea13/img/cap3%20.png>)
 
-![<Imagen 4>](<>)
+![<Imagen 4>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Traea13/img/cap4%20.png>)
 
 ## 7. Indicar claves de todas las tablas resultantes.
 
@@ -41,4 +41,4 @@ Las claves de todas las tablas resultantes son las siguientes: Número Artículo
 
 ## 8. Genera el diagrama E/R resultante.
 
-![<Imagen 5>](<>)
+![<Imagen 5>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Traea13/img/pedido.png>)
