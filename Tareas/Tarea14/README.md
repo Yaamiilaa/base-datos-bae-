@@ -16,15 +16,15 @@ No se cumple la 1o Forma Normal porque hay campos que no son atómicos, es decir
 
 ## 2. Normalizar si no se cumple el apartado 1.
 
-![<Tabla Villanos>](<>)
+![<Tabla Villanos>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Villanos.png>)
 
-![<Tabla Episodio>](<>)
+![<Tabla Episodio>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20episodio.PNG>)
 
-![<Tabla Ratings>](<>)
+![<Tabla Ratings>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20Ratings.PNG>)
 
-![<Tabla Tener>](<>)
+![<Tabla Tener>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20Tener.PNG>)
 
-![<Tabla Aparecer>](<>)
+![<Tabla Aparecer>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20Aparece.PNG>)
 
 ## 3. Comprobar si se cumple la 2ª Forma Normal.
 
@@ -48,4 +48,4 @@ Las claves de todas las tablas resultantes son: Código, Episodio e ID Ratings.
 
 ## 8. Genera el diagrama E/R resultante.
 
-![<E/R resultante>](<>)
+![<E/R resultante>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Villanos.png>)
