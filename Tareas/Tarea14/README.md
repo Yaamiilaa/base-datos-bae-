@@ -16,7 +16,7 @@ No se cumple la 1o Forma Normal porque hay campos que no son atómicos, es decir
 
 ## 2. Normalizar si no se cumple el apartado 1.
 
-![<Tabla Villanos>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Villanos.png>)
+![<Tabla Villanos>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20villanos.PNG>)
 
 ![<Tabla Episodio>](<https://github.com/Yaamiilaa/base-datos-bae-/blob/main/Tareas/Tarea14/img/Tabla%20episodio.PNG>)
 
