@@ -94,7 +94,9 @@ Las consultas son las siguientes:
 
 - Obtener un listado que incluya los nombres de los clientes de edades comprendidas entre 10 y 25 y de los mayores de 50 años utilizando BETWEEN y otra sin BETWEEN.
 
-![<Consulta 16>](<>)
+![<Consulta 16 parte 1>](<>)
+
+![<Consulta 16 parte 2>](<>)
 
 - Sacar un listado con los comercios de Sevilla y Madrid sin valores duplicados. 
 
