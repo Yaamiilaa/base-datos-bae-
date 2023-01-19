@@ -1,1 +1,1 @@
-# Creación de la carpeta de imágenes de la tarea 15
+# Se crea la carpeta de imagenes de la tarea 15
