@@ -10,7 +10,7 @@
 # Actualizar los paquetes del servidor 
 Para poder actualizar los paquetes del servidor deberemos utilizar el comando apt. Como vemos a continuación nos pide la contraseña de nuestra máquina virtual para que el paquete se instale correctamente.
   
-    *sudo apt update*
+    sudo apt update
 
 [sudo] contraseña para urano08: 
 Obj:1 http://es.archive.ubuntu.com/ubuntu focal InRelease
@@ -32,7 +32,7 @@ Se pueden actualizar 150 paquetes. Ejecute «apt list --upgradable» para verlos
 # Instalar el paquete de mysql-server
 En el paso anterior actualizamos nuestro paquete con el comando apt y para instalar el paquete de MySQL Server deberemos utilizar el mismo comando como vemos posteriormente.
 
-    *sudo apt install mysql-server*
+    sudo apt install mysql-server
 
 Leyendo lista de paquetes... Hecho
 Creando árbol de dependencias       
@@ -79,6 +79,7 @@ reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
 emitting matrix      : 100% |###########################################| 
 
 done!
+
 update-alternatives: utilizando /var/lib/mecab/dic/ipadic-utf8 para proveer /var/lib/mecab/dic/debian
  (mecab-dictionary) en modo automático
 Configurando mysql-server-8.0 (8.0.32-0ubuntu0.20.04.2) ...
@@ -98,7 +99,7 @@ Procesando disparadores para libc-bin (2.31-0ubuntu9.9) ...
 # ¿Cómo acceder a MySQL Server desde consola con el usuario root?
 Una vez que hemos instalado MySQL Server en nuestro sistema vamos a acceder a la consola de MySQL. En primer lugar vamos a iniciar una sesión como root:
 
-    *sudo su*
+    sudo su
 
 root@urano08-VirtualBox:/home/urano08# mysql -u root
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -122,7 +123,7 @@ exit
 # Configurar MySQL
 Una vez realizado el paso anterior, ahora vamos a configurar MySQL Server como se indica acontinuación:
 
-    *sudo mysql_secure_installation*
+    sudo mysql_secure_installation
 
 [sudo] contraseña para urano08: 
 
@@ -183,9 +184,10 @@ All done!
 # Probar MySQL Server
 Independientemente de cómo lo haya instalado, MySQL debería comenzar a ejecutarse automáticamente. Para probar esto, compruebe su estado. Para ello introducimos el siguiente comando:
 
-    *systemctl status mysql.service*
+    systemctl status mysql.service
 
-Output
+El resultado debería ser similar a este:
+
 ● mysql.service - MySQL Community Server
      Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
      Active: active (running) since Tue 2020-04-21 12:56:48 UTC; 6min ago
@@ -203,11 +205,10 @@ Si MySQL no está ejecutándose, puede iniciarlo con sudo systemctl start mysql.
 
 Como comprobación adicional, puede intentar establecer conexión con la base de datos usando la herramienta mysqladmin, que es un cliente que le permite ejecutar comandos administrativos. Por ejemplo, este comando dice conectar a MySQL como root (-u root), solicitud de contraseña (-p), y devolver la versión.
 
-    *sudo mysqladmin -p -u root versión*
+    sudo mysqladmin -p -u root versión
 
 El resultado debería ser similar a este:
 
-Output
 mysqladmin  Ver 8.0.19-0ubuntu5 for Linux on x86_64 ((Ubuntu))
 Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
 
