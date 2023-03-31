@@ -17,11 +17,11 @@ insert into empleados values (22555555, 'Susana', 'Garcia', 400.00, 2, 'Secretar
 insert into empleados values (22666666, 'Jose Maria', 'Morales', 400.00, 3, 'Secretaria');
 
 --- 3- Elimine el procedimiento llamado pa_empleados_sueldo si existe.
-drop procedure if exists pa_empleados_sueldo; 
+drop procedure if exists pa_empleados_sueldo;
 
 --- 4- Cree un procedimiento almacenado llamado pa_empleados_sueldo que seleccione los nombres.
 DELIMITER //
-create procedure pa_empleados_sueldo()
+create procedure pa_empleados_sueldo() # No hace falta los paréntesis porque no hay parámetros de entrada ni de salida
 BEGIN
     select nombre from empleados;
 END 
@@ -29,16 +29,17 @@ END
 
 --- 5- Ejecute el procedimiento creado anteriormente.
 DELIMITER ;
-CALL pa_empleados_sueldo() //
+CALL pa_empleados_sueldo(); # Aquí tampoco hace falta los paréntesis
 
 --- 6- Elimine el procedimiento llamado pa_empleados_hijos si existe.
 drop procedure if exists pa_empleados_hijos;
 
 --- 7- Cree un procedimiento almacenado llamado pa_empleados_hijos que seleccione los nombres apellidos y cantidad de hijos de los empleados con hijos.
+# Se puede hacer ocn parámetros de entrada ya que la cantidad de hijos te la pueden pedir 
 DELIMITER //
 CREATE PROCEDURE pa_empleados_hijos()
 BEGIN
-    select nombre, apellido, cantidad_hijos from empleados where cantidad_hijos > 0;
+    select nombre, apellido, cantidad_hijos from empleados where cantidad_hijos > 0; # El 0 puede ser un parámetro de entrada
 END 
 //
 
