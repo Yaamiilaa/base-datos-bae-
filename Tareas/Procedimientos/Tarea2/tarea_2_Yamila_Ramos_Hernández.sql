@@ -39,7 +39,7 @@ drop procedure if exists pa_empleados_hijos;
 DELIMITER //
 CREATE PROCEDURE pa_empleados_hijos()
 BEGIN
-    select nombre, apellido, cantidad_hijos from empleados where cantidad_hijos > 0; # El 0 puede ser un parámetro de entrada
+    select nombre, apellido, cantidad_hijos from empleados where cantidad_hijos > 0; ---> El 0 puede ser un parámetro de entrada
 END 
 //
 
@@ -49,6 +49,15 @@ CALL pa_empleados_hijos();
 
 
 --- 9- Actualice la cantidad de hijos de algún empleado sin hijos y vuelva a ejecutar el procedimiento para verificar que ahora si aparece en la lista.
-update empleados set cantidad_hijos = 1 where cantidad_hijos = 0;
+update empleados set cantidad_hijos = 1 where cantidad_hijos = 0; # Hay que hacer un procedimiento
 
-call pa_empleados_hijos();
+DELIMITER // 
+DROP PROCEDURE IF EXISTS actualizar_hijos //
+create PROCEDURE actualizar_hijos(in nombre_empleados varchar(50), 
+                                  cantidad_nuevos_hijos int,
+                                  filtro_nuevos_hijos int) 
+BEGIN
+    UPDATE empleados set  cantidad_hijos = cantidad_nuevos_hijos
+    where nombre=nombre_empleados and cantidad_hijos > filtro_nuevos_hijos;
+END
+//
