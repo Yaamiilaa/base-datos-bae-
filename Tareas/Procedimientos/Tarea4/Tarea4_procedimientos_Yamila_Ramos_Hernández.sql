@@ -95,7 +95,7 @@ DELIMITER //
 DROP PROCEDURE IF EXISTS insertar_personas //
 CREATE PROCEDURE insertar_personas( in numero_de_personas int)
 BEGIN
-    DECLARE clave varchar(9);
+    DECLARE clave varchar(9); /* Todos los declare tienen que ir juntos, porque sino da error */
     DECLARE numero INT;
     SET numero = 1;
     while numero < numero_de_personas do
