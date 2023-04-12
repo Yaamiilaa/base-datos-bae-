@@ -66,29 +66,6 @@ BEGIN
 END
 //
 
---- 5. Investigar cómo hacer un ciclo (while).
-DELIMITER // 
-DROP PROCEDURE IF EXISTS insertar_personas //
-CREATE PROCEDURE insertar_personas( in numero_de_personas int)
-BEGIN
-
-  DECLARE FOO varchar(7);
-  DECLARE oldFOO varchar(7);
-  SET FOO = '138';
-  SET oldFOO = CONCAT('0', FOO);
-    DECLARE NUMERO INT;
-    SET NUMERO = 0;
-    while NUMERO < numero_de_personas DO 
-    insert into persona values(oldFOO, 
-    'kjsdbfjbf', 
-    'jhavsvjas', 
-    'advjhasvd',
-     65, 
-     'H');
-    set i = i + 1;
-END 
-//
-
 
 --- 5. Investigar cómo hacer un ciclo (while).
 DELIMITER // 
