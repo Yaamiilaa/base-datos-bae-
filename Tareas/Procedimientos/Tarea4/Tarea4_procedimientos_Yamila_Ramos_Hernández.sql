@@ -26,7 +26,7 @@ insert into persona values('99999999I', 'Ariadna', 'Perez', 'Regalado', 65, 'M')
 insert into persona values('10101010J', 'Pepe', 'Díaz', 'Fuentes', 86, 'H');
 
 --- Creación de procedimientos 
---- 1. Insertar información enb la tabla 
+--- 1. Insertar información en la tabla "personas"
 DELIMITER //
 DROP PROCEDURE IF EXISTS info_personas //
 CREATE PROCEDURE info_personas(in nuevo_id VARCHAR(50), in nuevo_nombre VARCHAR(50), in nuevo_apellido1 VARCHAR(50), in nuevo_apellido2 VARCHAR(50), in nuevo_peso int, in nuevo_sexo VARCHAR(50))
