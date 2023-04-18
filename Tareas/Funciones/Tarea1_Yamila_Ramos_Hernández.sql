@@ -5,9 +5,9 @@ mysql> use salario;
 
 --- Creación de la tabla de la base de datos 
 create table salario(
-    identificador int primary key,
-    nombre varchar(20),
-    salario_base int
+    identificador int not null primary key,
+    nombre varchar(20) not null,
+    salario_base int not null
 );
 
 --- Insertar varios datos para la tabla creada anteriormente 
@@ -121,10 +121,10 @@ BEGIN
     DECLARE funcion_pension int;
     DECLARE funcion_bono int;
     DECLARE funcion_subsidio_transporte int;
-    set funcion_salud = (select salud(9));
-    set funcion_pension = (select pension(9));
-    set funcion_bono = (select bono(9));
-    set funcion_subsidio_transporte = (select subsidio_transporte(9));
+    set funcion_salud = (select salud(id));
+    set funcion_pension = (select pension(id));
+    set funcion_bono = (select bono(id));
+    set funcion_subsidio_transporte = (select subsidio_transporte(id));
     set calcular_integral = (select salario_base - funcion_salud - funcion_pension + funcion_bono + funcion_subsidio_transporte from salario where identificador = id);
     RETURN calcular_integral;
 END 
