@@ -213,3 +213,28 @@ BEGIN
     RETURN calcular_integral;
 END 
 //
+
+/*
+mysql> DELIMITER //
+mysql> DROP FUNCTION IF EXISTS modificar_integral //
+Query OK, 0 rows affected (0,00 sec)
+
+mysql> CREATE FUNCTION modificar_integral(identificador varchar(9)) RETURNS float DETERMINISTIC
+    -> BEGIN
+    ->     DECLARE calcular_integral float;
+    ->     DECLARE calcular_salud FLOAT;
+    ->     DECLARE salario FLOAT;
+    ->     declare calcular_pension float;
+    ->     DECLARE calcular_bono float;
+    ->     declare subsidio_transporte float;
+    ->     set calcular_bono = modificar_bono(identificador);
+    ->     set calcular_pension = modificar_pension(identificador);
+    ->     set subsidio_transporte = subsidio_transporte(identificador);
+    ->     set calcular_salud = modificar_salud(identificador);
+    ->     set salario = (select salario_base from persona where id = identificador); 
+    ->     set calcular_integral = (salario - calcular_salud - calcular_pension + calcular_bono + subsidio_transporte);
+    ->     update persona set integral = calcular_integral where id = identificador;
+    ->     RETURN calcular_integral;
+    -> END 
+    -> //
+Query OK, 0 rows affected (0,02 sec) */
