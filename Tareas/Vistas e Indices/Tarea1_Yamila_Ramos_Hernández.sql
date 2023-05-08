@@ -392,3 +392,28 @@ mysql> select category.name, avg(film.length) from category, film, film_category
 +-------------+------------------+
 16 rows in set (0,01 sec)
  */
+
+
+    --- Muestra el resultado de la consulta de las vistas que se proporcionan.
+
+mysql> select count(*) from customer_list;
+/* 
++----------+
+| count(*) |
++----------+
+|      599 |
++----------+
+1 row in set (0,02 sec)
+ */
+
+mysql> select count(*) from film_list;
+/* 
++----------+
+| count(*) |
++----------+
+|     1000 |
++----------+
+1 row in set (0,04 sec)
+ */
+    
+    --- Crea 5 vistas sobre la BBDD, y realizar la consulta, para mostrar los resultados. Las vistas deben de tener 3 o más tablas de la BBDD.
