@@ -417,3 +417,82 @@ mysql> select count(*) from film_list;
  */
     
     --- Crea 5 vistas sobre la BBDD, y realizar la consulta, para mostrar los resultados. Las vistas deben de tener 3 o más tablas de la BBDD.
+
+    --- Vista que muestra el nombre de los clientes, la cantidad de películas que ha alquilado y el total de pagos de los clientes.
+
+mysql> CREATE VIEW total_pagos as select customer.first_name, customer.last_name, count(rental.rental_id), sum(payment.amount) from customer join rental on customer.customer_id = rental.customer_id join payment on rental.rental_id = payment.rental_id group by customer.customer_id;
+/* Query OK, 0 rows affected (0,00 sec) */
+
+mysql> select count(*) from total_pagos;
+/* 
++----------+
+| count(*) |
++----------+
+|      599 |
++----------+
+1 row in set (0,03 sec)
+ */
+
+    --- Vista que muestra el título de la película, el nombre del actor y la categoría de la película. 
+mysql> CREATE view peliculas_alquiladas as select film.title, actor.first_name,
+actor.last_name, category.name from film join film_actor on film.film_id = film_actor.film_id join actor on actor.actor_id = film_actor.actor_id join inventory
+on film.film_id = inventory.film_id join rental on rental.inventory_id = rental.inventory_id join film_category on film.film_id = film_category.film_id join category on film_category.category_id = category.category_id;
+
+/* Query OK, 0 rows affected (0,02 sec) */
+
+mysql> select count(*) from peliculas_alquiladas;
+/* 
++-----------+
+| count(*)  |
++-----------+
+| 403394292 |
++-----------+
+1 row in set (12,37 sec)
+ */
+
+    --- Vista que muestra los títulos de las películas y nombre del actor principal.
+
+mysql> create view actores_principales as select film.title, actor.first_name, actor.last_name from film
+join film_actor on film.film_id = film_actor.film_id join actor on actor.actor_id = film_actor.actor_id;
+/* Query OK, 0 rows affected (0,02 sec) */
+
+mysql> select count(*) from actores_principales;
+/* 
++----------+
+| count(*) |
++----------+
+|     5462 |
++----------+
+1 row in set (0,02 sec)
+ */
+
+    --- Vista que muestra el título de la película, la descripción, la duración y la categoría a la que pertenece.
+
+mysql> create view descripcion_de_peliculas as select film.title, film.description, film.length, category.name from film join film_category on film.film_id = film_category.film_id join category on category.category_id = film_category.category_id;
+/* Query OK, 0 rows affected (0,02 sec) */
+
+mysql> select count(*) from descripcion_de_peliculas;
+/* 
++----------+
+| count(*) |
++----------+
+|     1000 |
++----------+
+1 row in set (0,00 sec)
+ */
+    
+    --- Vista que muestre el título de la película, el actor principal y la categoría a la que pertenece.
+
+mysql> create view informacion_de_peliculas as select film.title, actor.first_name, actor.last_name, category.name from film join film_actor on film.film_id = film_actor.film_id join actor on actor.actor_id = film_actor.actor_id join film_category on film.film_id = film_category.film_id join category on category.c
+ategory_id = film_category.category_id;
+/* Query OK, 0 rows affected (0,02 sec) */
+
+mysql> select count(*) from informacion_de_peliculas;
+/* 
++----------+
+| count(*) |
++----------+
+|     5462 |
++----------+
+1 row in set (0,01 sec)
+ */
