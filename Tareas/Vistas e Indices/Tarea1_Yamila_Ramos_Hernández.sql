@@ -60,7 +60,7 @@ mysql> select count(*) from actor where first_name like '%O%O%' and last_name re
   
     --- Actores donde su tercera letra sea B.
 
-mysql> select count(first_name) from actor where first_name regexp '...B';
+mysql> select count(first_name) from actor where first_name regexp '..B';
 /* 
 +-------------------+
 | count(first_name) |
@@ -420,7 +420,12 @@ mysql> select count(*) from film_list;
 
     --- Vista que muestra el nombre de los clientes, la cantidad de películas que ha alquilado y el total de pagos de los clientes.
 
-mysql> CREATE VIEW total_pagos as select customer.first_name, customer.last_name, count(rental.rental_id), sum(payment.amount) from customer join rental on customer.customer_id = rental.customer_id join payment on rental.rental_id = payment.rental_id group by customer.customer_id;
+mysql> CREATE VIEW total_pagos as 
+select customer.first_name, 
+customer.last_name, count(rental.rental_id), sum(payment.amount) 
+from customer join rental on customer.customer_id = rental.customer_id 
+join payment on rental.rental_id = payment.rental_id group by 
+customer.customer_id;
 /* Query OK, 0 rows affected (0,00 sec) */
 
 mysql> select count(*) from total_pagos;
@@ -434,9 +439,15 @@ mysql> select count(*) from total_pagos;
  */
 
     --- Vista que muestra el título de la película, el nombre del actor y la categoría de la película. 
-mysql> CREATE view peliculas_alquiladas as select film.title, actor.first_name,
-actor.last_name, category.name from film join film_actor on film.film_id = film_actor.film_id join actor on actor.actor_id = film_actor.actor_id join inventory
-on film.film_id = inventory.film_id join rental on rental.inventory_id = rental.inventory_id join film_category on film.film_id = film_category.film_id join category on film_category.category_id = category.category_id;
+mysql> CREATE view peliculas_alquiladas as 
+select film.title, actor.first_name,
+actor.last_name, category.name from film join film_actor on 
+film.film_id = film_actor.film_id join actor on 
+actor.actor_id = film_actor.actor_id join inventory
+on film.film_id = inventory.film_id join rental on 
+rental.inventory_id = rental.inventory_id join film_category on 
+film.film_id = film_category.film_id join category on 
+film_category.category_id = category.category_id;
 
 /* Query OK, 0 rows affected (0,02 sec) */
 
