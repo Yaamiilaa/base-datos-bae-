@@ -109,7 +109,7 @@ Query OK, 1 row affected (0,01 sec)
     insert into alumnos values (30, 40, 'Juan', 'Calle20', '30A', 'S/C de Tenerife', 'S/C de Tenerife');
 
 ```sql 
-insert into alumnos values (30, 40, 'Juan', 'Calle20', '30A', 'S/C de Tenerife', 'S/C de Tenerife');
+Query OK, 1 row affected (0,00 sec)
 ```
 
     insert into alumnos values (40, 10, 'Juan', 'Calle20', '30A', 'S/C de Tenerife', 'S/C de Tenerife');
